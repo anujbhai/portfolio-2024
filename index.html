@@ -7,21 +7,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;0,700;1,400;1,700&family=Cute+Font&display=swap" rel="stylesheet" />
-    <link href="./styles/main.css" rel="stylesheet">
+    <link href="/dist/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="port-pro-header-main">
-      <div class="container">
+      <div class="container content-font">
         <div class="port-pro-header-logo">
           <a href="/">
-            <img src="assets/images/fixing-problem.png" alt="iAmAnuuj.me">
+            <picture>
+              <source srcset="dist/images/fixing-problem.png" type="image/webp" />
+
+              <img src="dist/images/fixing-problem.png" alt="I am Anuj" loading="lazy" />
+            </picture>
           </a>
         </div>
         <nav class="port-pro-nav-main">
           <ul>
-            <li class="content-font-regular"><a href="/">Layouts</a></li>
-            <li class="content-font-regular"><a href="/">Interactive Elements</a></li>
-            <li class="content-font-regular"><a href="/">UI Elements</a></li>
+            <li><a href="/">Layouts</a></li>
+            <li><a href="/">Interactive Elements</a></li>
+            <li><a href="/">UI Elements</a></li>
           </ul>
         </nav>
       </div>
@@ -29,18 +33,28 @@
 
     <div class="wrapper">
       <div class="port-pro-body-main">
-        <div class="container">
+        <div class="container content-font">
           <div class="main-content">
-            <h2 class="heading-font">Hello, I am Anuj!</h2>
+            <div class="main-content-info">
+              <h2 class="heading-font">Hello, I am Anuj!</h2>
 
-            <p class="content-font-regular">Smartypants is coming soon...</p>
+              <p>Smartypants is coming soon...</p>
+            </div>
+
+            <div class="main-content-portrait">
+              <picture>
+                <source srcset="dist/images/portfolio-portrait.webp" type="image/webp" />
+
+                <img src="dist/images/portfolio-portrait.jpg" alt="I am Anuj" loading="lazy" />
+              </picture>
+            </div>
           </div>
         </div>
       </div>
 
       <footer class="port-pro-footer-main">
-        <div class="container">
-          <p class="content-font-regular">&reg;2024 No Rights Reserved</p>
+        <div class="container content-font">
+          <p>&reg;2024 No Rights Reserved</p>
         </div>
       </footer>
     </div>

@@ -1,0 +1,23 @@
+/*
+ Resets
+ */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  height: 100vh;
+}
+
+body {
+  background-image: url('images/pexels-zally-11559497.jpg');
+  /*background-image: url('../assets/images/pexels-monica-silvestre-925030.jpg');*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  color: #DCE8F2;
+  /*color: #172D40;*/
+  display: flex;
+  flex-direction: column;
+}

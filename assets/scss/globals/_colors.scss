@@ -1,0 +1,16 @@
+$theme1-primary: rgb(30, 2, 90);
+$theme1-primary-dark: rgb(21, 2, 64);
+$theme1-secondary: rgb(28, 100, 242);
+$theme1-secondary-dark: rgb(66, 43, 218);
+$theme1-accent: rgb(240, 68, 5);
+
+$theme2-primary: rgb(221, 233, 243);
+$theme2-primary-dark: rgb(23, 45, 64);
+$theme2-secondary: rgb(80, 139, 190);
+$theme2-secondary-dark: rgb(99, 156, 191);
+$theme2-accent: rgb(217, 76, 63);
+
+@mixin bg-opacity($color, $opacity) {
+  background-color: $color;
+  background-color: rgb($color, $opacity);
+}
