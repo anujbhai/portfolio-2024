@@ -1,0 +1,23 @@
+@use '../util/' as utl;
+
+ul {
+  & > li {
+    list-style-type: none;
+    font-size: utl.rem(12);
+  }
+}
+li, p {
+  text-transform: uppercase;
+  font-size: utl.rem(14);
+  letter-spacing: 2px;
+}
+
+a {
+  color: #DCE8F2;
+  text-decoration: none;
+
+  &:hover {
+    color: #1B63F2;
+    text-decoration: none;
+  }
+}
