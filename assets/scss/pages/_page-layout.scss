@@ -1,0 +1,21 @@
+@use '../util' as utl;
+
+.projects-list {
+
+  &__item {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    margin-block: utl.rem(16);
+
+    p {
+      margin-block: 15px;
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  &__thumbnail {
+    width: 200px;
+  }
+}
