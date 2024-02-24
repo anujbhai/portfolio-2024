@@ -15,7 +15,7 @@
         <div class="port-pro-header-logo">
           <a href="/">
             <picture>
-              <source srcset="dist/images/fixing-problem.png" type="image/webp" />
+              <source srcset="../dist/images/fixing-problem.png" type="image/webp" />
 
               <img src="dist/images/fixing-problem.png" alt="I am Anuj" loading="lazy" />
             </picture>
@@ -35,21 +35,27 @@
       <div class="port-pro-body-main">
         <div class="container content-font">
           <div class="main-content">
-            <div class="main-content-info">
-              <h2 class="heading-font">Hello, I am Anuj!</h2>
-
-              <p>Smartypants is coming soon...</p>
-              <p>...in the meantime please go through the menu above to view some of my works.</p>
-              <p>Thanks!</p>
-            </div>
-
-            <div class="main-content-portrait">
-              <picture>
-                <source srcset="dist/images/portfolio-portrait.webp" type="image/webp" />
-
-                <img src="dist/images/portfolio-portrait.jpg" alt="I am Anuj" loading="lazy" />
-              </picture>
-            </div>
+            <section class="projects-list">
+              <ul>
+                <li class="projects-list__item">
+                  <article>
+                    <a href="https://fm-new-homepage.pages.dev/" target="_blank">
+                      <img class="projects-list__thumbnail" src="../dist/images/thumb1.jpg" alt="">
+                    </a>
+                    <h3 class="heading-font">
+                      [<a href="https://fm-new-homepage.pages.dev/" target="_blank">News Homepage</a>]
+                    </h3>
+                    <p>
+                      New style layout created using HTML, Scss and JS. Design available from [<a href="https://www.frontendmentor.io" target="_blank">frontendmentor.io</a>] as a challenge.
+                    </p>
+                    <p>[<a href="https://github.com/anujbhai/fm-challenge-01-new-homepage" target="_blank">View Repo</a>]</p>
+                  </article>
+                </li>
+                <li class="projects-list__item">
+                  <p>More layouts coming soon...</p>
+                </li>
+              </ul>
+            </section>
           </div>
         </div>
       </div>
@@ -62,4 +68,5 @@
     </div>
   </body>
 </html>
+
 
